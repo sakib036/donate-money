@@ -79,6 +79,12 @@ input {
     border-radius: 20px;
     outline-style: none;
 
+
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 input:hover {
@@ -90,6 +96,7 @@ input:hover {
     text-align: center;
     /* margin-left: 43vw;*/
     margin-bottom: 10vw;
+
 
 }
 
