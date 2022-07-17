@@ -1,0 +1,291 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+}
+
+.header {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .6), rgba(255, 255, 255, .3)), url(images/in-flood_kohlapur.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid black;*/
+}
+
+.header-heading {
+    text-align: center;
+    margin: 10vw 20vw;
+    color: white;
+}
+
+.header-heading h1 {
+    font-size: 5vw;
+}
+
+.header-heading p {
+    font-size: 2vw;
+}
+
+.link-button {
+    background: linear-gradient(orangered, yellow);
+    padding: 10px 20px;
+    color: white;
+    font-size: 2vw;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+.doner {
+    display: inline-block;
+    background: linear-gradient(rgba(175, 130, 138, .6), gray);
+    width: 100%;
+
+}
+
+.amount {
+    display: flex;
+    justify-content: center;
+}
+
+.amount div {
+    margin-left: 1vw;
+    background-color: antiquewhite;
+    padding: 1vw 5vw;
+    font-size: 2.5vw;
+    border-radius: 20px;
+}
+
+.amount div:hover {
+    background-color: brown;
+}
+
+.amount div a {
+    text-decoration: none;
+}
+
+input {
+    margin-left: 30vw;
+    margin-top: 3vw;
+    width: 40%;
+    text-align: center;
+    padding: 1vw;
+    background-color: antiquewhite;
+    font-size: 2vw;
+    border-radius: 20px;
+    outline-style: none;
+
+}
+
+input:hover {
+    background-color: brown;
+    color: white;
+}
+
+#link-submit {
+    text-align: center;
+    /* margin-left: 43vw;*/
+    margin-bottom: 10vw;
+
+}
+
+.box-flex {
+    display: flex;
+    justify-content: center;
+    padding: 0 2vw;
+
+}
+
+.box-flex div {
+    margin: 0 1vw 3vw;
+    width: 100%;
+    height: 25vw;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+.education {
+    display: inline-block;
+    background: linear-gradient(rgba(250, 150, 167, .3), skyblue), url(icon/red.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.food {
+    display: inline-block;
+    background: linear-gradient(rgba(128, 255, 0, .3), pink), url(icon/Food\ Icons\ Instagram\ Story\ Highlight\ Cover.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.health {
+    display: inline-block;
+    background: linear-gradient(rgba(170, 214, 60, .4), #9329cc), url(icon/medicine.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.family {
+    display: inline-block;
+    background: linear-gradient(rgba(193, 41, 204, .3), #4684e8), url(icon/home.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.box-flex img {
+    width: 100%;
+    height: 100%;
+}
+
+.box-flex h1 {
+    text-align: center;
+    font-size: 2vw;
+}
+
+.box-flex p {
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.container {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    justify-items: center;
+    /* width: 80%;
+    height: auto;
+    flex-wrap: wrap; */
+    padding: 0 2vw;
+}
+
+.container div {
+    /* border: 1px solid blueviolet; */
+    margin: 0 1vw 4vw;
+    height: 50vw;
+    /* width: 26vw; */
+    border-radius: 2vw;
+
+}
+
+@media screen and (max-width:576px) {
+
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 10vw;
+    }
+
+    .container div {
+        width: 100%;
+        height: auto;
+
+    }
+
+    footer i {
+
+        padding: 2vw;
+    }
+
+    footer img {
+        padding-top: 10%;
+    }
+
+    /* .container div img { 
+        height: 50%;
+    }
+
+    .container div h1 {
+        font-size: 0vw;
+    }
+
+    .container div p {
+        font-size: 3vw;
+
+    } */
+
+}
+
+@media screen and (min-width:577px) and (max-width: 992px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container div {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+.container div img {
+    width: 100%;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+}
+
+.container div h1 {
+    font-size: 2vw;
+}
+
+.container div p {
+    font-size: 2vw;
+
+}
+
+.card-help {
+    background: linear-gradient(aquamarine, pink);
+    text-align: center;
+}
+
+.card-emergiency {
+    background: linear-gradient(orangered, aquamarine);
+    text-align: center;
+}
+
+.card-training {
+    background: linear-gradient(violet, aquamarine);
+    text-align: center;
+}
+
+.card-orphan {
+    background: linear-gradient(blue, pink);
+    text-align: center;
+}
+
+.card-flood {
+    background: linear-gradient(chartreuse, pink);
+    text-align: center;
+
+}
+
+.card-disaster {
+    background: linear-gradient(pink, #9329cc);
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    min-height: 12vw;
+    background-color: rgba(193, 41, 204, .3);
+}
+
+footer div {
+    flex-grow: 1;
+    margin-left: 25%;
+}
+
+footer img {
+    width: 10vw;
+    height: 10vw;
+    margin: 3vw;
+
+}
+
+footer i {
+    font-size: 3vw;
+}
