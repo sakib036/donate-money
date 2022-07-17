@@ -153,22 +153,20 @@ input:hover {
 }
 
 .container {
-    /* border: 1px solid red; */
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     justify-items: center;
-    /* width: 80%;
-    height: auto;
-    flex-wrap: wrap; */
+
     padding: 0 2vw;
 }
 
 .container div {
-    /* border: 1px solid blueviolet; */
+
     margin: 0 1vw 4vw;
     height: 50vw;
-    /* width: 26vw; */
+
     border-radius: 2vw;
 
 }
